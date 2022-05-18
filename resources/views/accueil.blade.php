@@ -21,16 +21,32 @@
 
     <div class="bg-gray-100 border-t border-gray-300">
 
-        <div class="max-w-5xl max-auto">
-
+        <div class="max-w-5xl mx-auto">
+ 
             <h1 class="text-4xl py-10">Coques et protections</h1>
 
         </div>
 
     </div>
 
-    <div class="h-14 border-t border-b border-gray-300">
+    <div class="h-14 border-t border-b border-gray-300 text-gray-400 text-xs sticky top-0 bg-white">
 
+        <div class="max-w-6xl mx-auto h-full flex justify-between items-center">
+
+            <div class="flex space-x-1">
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+
+                 <span>Filtre</span>
+                
+            </div>
+                 
+            <div>Trier par <span class="text-black">sélection</span></div>
+
+        </div>
+        
 
     </div>
 

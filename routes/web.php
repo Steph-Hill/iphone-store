@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IphoneController;
+use App\Http\Controllers\RelationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get("/",[IphoneController::class,"index"]);
+
+Route::get("/relation",[RelationController::class,"index"]);
+
+Route::get("/relation/detail/{id}",[RelationController::class,"detail"]);
